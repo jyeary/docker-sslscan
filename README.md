@@ -27,3 +27,9 @@ Then it's easy:
 ## TLSSLed.sh
 
 I hav included a slightly modified version of [TLSSLed.sh](http://www.taddong.com/en/lab.html#TLSSLED) for use with Docker and that outputs the results of the test into a separate sub-directory called **results/**.
+
+```
+mv TLSSLed_v1.3_docker.sh TLSSLed.sh
+chmod +x TLSSLed.sh
+./TLSLed.sh
+```
