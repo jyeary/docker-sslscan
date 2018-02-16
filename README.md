@@ -15,7 +15,7 @@ I recommend to use the file sslscan.sh
 
 docker run \
     --rm=true --interactive --tty \
-    treibholz/sslscan:latest "$@"
+    jyeary/docker-sslscan:latest "$@"
 ```
 
 Then it's easy:
